@@ -1,2 +1,2 @@
-# http://MariamSaib.github.io
+# MariamSaib.github.io
 My site
