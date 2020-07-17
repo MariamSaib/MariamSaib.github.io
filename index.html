@@ -1,60 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <img src= "https://imgur.com/7evZTWA.png" alt="Mariam Saib" style= "width:400px;height:400px;">
     <meta name="viewport" content="width=320, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="cv.css"/>
     <!--<script defer src="script.js"></script>-->
+    <style>  
+        .vertical { 
+            border-left: 6px solid black; 
+            height: 200px; 
+            position:absolute; 
+            left: 50%; 
+        }
+        .group {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        .grid {
+          /* clear: both; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .image{
+            border-radius: 50%;
+        }
+        .profile{
+            display: grid;
+            grid-template-columns: 15% 80%;
+        }
+        .img {
+          padding: 20px;
+        }
+        .git-link {
+          color: blueviolet;
+        }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Saib Mariam </h1>
-  <div class="details">
-  <p> Email: ifymoriento@gmail.com </p>
-  <p>Mobile: 08058161127</p>
-  </div>
+<div class="container">
+  <div class= "profile" >
+    <div class="img">
+      <img src= "mariam.jpg" alt="Mariam Saib" style= "width:150px;height:150px;" class="image">
     </div>
- <div class="upper-line"></div>
- <div class="objective">
-  <h4><i>Objectives</i></h4>
-  <p> To bring my strong sense of dedication, motivation, and responsibility to Uwani hub, and to utilize my qualifications obtained through Olabisi Onabanjo University.</p>
- </div>
- <div class="line"></div>
- <div class="skills">
-  <h4><i>Key Skills</i></h4>
-  <p>Team work, Flexibility</p>
- </div>
- <div class="line"></div>
- <div class="qualification">
-  <h4><i>Qualifications</i></h4>
-  <h3>Bsc Computer Science</h3>
-  <p class="small"><i>Olabisi Onabanjo University</i></p>
-  <p>2017 - Present</p>
- </div>
- <div class="line"></div>
- <div class="interest">
-  <h4><i>Interests</i></h4>
-  <p>Designing , drawing , reading novels</p>
- </div>
- <div class="line"></div>
- <div class="language">
-  <h4><i>Languages</i></h4>
-  <p>English</p>
- </div>
- <div class="line"></div>
- <div class="information">
-  <h4><i>Personal Information</i></h4>
-  <p><b>Date of Birth:</b> 1/7/2002</p>
-  <p><b>Nationality:</b> Nigerian</b>
-  <p><b>Religion:</b> Christianity</p>
-  <p><b>Address:</b> No 10,Alhaji Idusote street ijebu ode, Ogun State</p>
- </div>
- <div class="line"></div>
- <div class="reference">
-  <h4><i>References</i></h4>
-  <p>Request on demand</p>
- </div>
-  </body>
+    <div class="content">
+      <h1>Mariam Saib</h1>
+      <h3>Intern|HowDoYou.Tech</h3>
+      <hr>
+      <div><strong>PROFILE</strong></div>
+      <p>A dedicated IT undergraduate, specialized in graphic design and html.Looking forward to hone my skills in your reputable organization.</p>
+    </div> 
+  </div>
+  <hr>
+  <div class="grid">
+    <div class="group">
+      <div class="CONTACT">
+        <h4>CONTACT</h4>
+        <P>Location: ijebu-ode, Nigeria</P>
+        <p>Email: ifymoriento@gmail.com </p>
+        <p>Mobile: 08058161127</p>
+        <p>LinkedIn: <a href="http://linkedin.domain/MariamSaib">/MariamSaib</a></p>
+        <p>Twitter: <a href="http://twitter.com/MariamSaib">@MariamSaib</a></p>
+        <p>GitHub: <a href="http://github.com/MariamSaib" class="git-link">Mariam Saib</a></p>
+      </div>
+      <div class="upper-line"></div>
+      <div class="skills">
+        <h4>SKILLS</h4>
+        <p> Teamwork and Flexibility</p>
+       </p>I have knowledge of WordPress, HTML, basic CSS and i make use google docs, slack, zoom and canva.</p>
+      </div>
+      <div class="line"></div>
+    </div>
+    <div class="group">
+      <div class="qualification">
+        <h4>ACADEMIC QUALIFICATIONS</h4>
+        <h3>Bsc Computer Science</h3>
+        <p class="small"><i>Olabisi Onabanjo University</i></p>
+        <p>2017 - Present</p>
+      </div>
+      <div class="line"></div>
+      <div class="Courses">
+        <h4>RECENT COURSES(ONGOING & COMPLETED)</h4>
+        <p>
+          <ul>
+            <li>WordPress for beginners by Yoast Academy.</li>
+            <li>Responsive web certification by FreeCodeCamp.</li>
+           <li>Basic Html, Css and WordPress by SkillCrushCamp.</li>
+         </ul>
+       </p>
+      </div>
+      <div class="line"></div>
+      <div class="Tech Projects">
+        <h4>ONGOING TECH PROJECTS</h4>
+        <p>Open source contribution to WordPress and GitHub</p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
-
